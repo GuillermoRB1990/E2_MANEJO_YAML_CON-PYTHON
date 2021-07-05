@@ -76,7 +76,7 @@ async def eliminar(request:Request,id:int):
     return RedirectResponse("/lista",303)
 
 @app.get("/ver_sitiopersonal/{id}")
-async def modificar(request:Request,id:int):
+async def versitio(request:Request,id:int):
     datos = await cargarYAML()
     diccionario1 = datos[id]
     item_id = diccionario1['item_id']
