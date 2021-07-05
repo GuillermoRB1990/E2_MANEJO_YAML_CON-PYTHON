@@ -10,7 +10,7 @@
         <br>
         {% for diccionario in lista %}
             {% if diccionario.get('item_id') == id: %}
-            <form method="POST" action="/modificar_integranteJSON/{{lista.index(diccionario)}}">
+            <form method="POST" action="/modificar_integranteYAML/{{lista.index(diccionario)}}">
                 <div class="col-sm-3 form-group">
                     <label class="col-form-label">Matricula:</label>
                     <input type="number" name="f_matricula" class="form-control" required value="{{ diccionario.get('matricula') }}">

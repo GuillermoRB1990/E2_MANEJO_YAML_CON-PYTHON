@@ -93,7 +93,7 @@ async def modificar(request:Request,id:int):
     return miPlantilla.TemplateResponse("modificarIntegrante.html",{"request":request,"lista":datos,"id":item_id})
 
 
-@app.post("/modificar_integranteJSON/{id}")
+@app.post("/modificar_integranteYAML/{id}")
 async def modificar(request:Request,id:int):
     datos = await cargarYAML()
     #print (datos)
