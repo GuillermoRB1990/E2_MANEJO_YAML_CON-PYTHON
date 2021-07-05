@@ -85,7 +85,7 @@ async def modificar(request:Request,id:int):
 
 
 @app.get("/formulario_modificar/{id}")
-async def versitio(request:Request,id:int):
+async def modificar(request:Request,id:int):
     datos = await cargarYAML()
     diccionario1 = datos[id]
     item_id = diccionario1['item_id']
