@@ -94,7 +94,7 @@ async def modificar(request:Request,id:int):
 
 
 @app.post("/modificar_integranteYAML/{id}")
-async def modificarJSON(request:Request,id:int):
+async def modificarYAML(request:Request,id:int):
     datos = await cargarYAML()
     #print (datos)
     #print (datos[id])

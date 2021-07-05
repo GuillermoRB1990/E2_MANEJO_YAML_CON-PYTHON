@@ -37,10 +37,10 @@ alumnos:
   carrera: RIyC
 - item_id: 5
   matricula: 9192344
-  nombre: Daniel
+  nombre: Daniel_Antonio
   apaterno: Morales
   amaterno: Duran
-  edad: 21
+  edad: 20
   correo: daniel@gmail.com
   telefono: 91923323
   carrera: RIyC
